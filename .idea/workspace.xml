@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d54ccb7-2f43-4f13-9fb4-efe56a0a9507" name="Default Changelist" comment="" />
+    <list default="true" id="6d54ccb7-2f43-4f13-9fb4-efe56a0a9507" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/XmlFileComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XmlFileComparator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
