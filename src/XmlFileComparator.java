@@ -14,21 +14,16 @@ import java.util.Date;
 
 public class XmlFileComparator {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException, InterruptedException {
-        //2018-09-16T08:00:00
-        String compartor = "";
-        LocalDateTime localDateTimeXML = LocalDateTime.parse(extracted2());
-        LocalDateTime localDateTimeFile = LocalDateTime.parse("2018-09-16T08:00:00");
+        File file = new File("C:\\Users\\Abdessamad\\Desktop\\justARatherDocument.txt");
 
-        if(localDateTimeFile.isAfter(localDateTimeXML)){
-            compartor= "isAfter";
-        }else if (localDateTimeFile.isBefore(localDateTimeXML)){
-            compartor = "isBefore";
-        }else{
-            compartor="isEqual";
+        if(file.delete())
+        {
+            System.out.println("File deleted successfully");
         }
-        System.out.println("The date in the xml file is "+localDateTimeXML);
-        System.out.println("The date in the stored file is "+localDateTimeFile);
-        System.out.println("The date in the stored  file  "+compartor+" the date in the XML file ");
+        else
+        {
+            System.out.println("Failed to delete the file");
+        }
 
     }
 
@@ -106,7 +101,23 @@ public class XmlFileComparator {
         }else{
             compartor="isEqual";
         }
+        System.out.println("The date in the xml file is "+localDateTimeXML);
+        System.out.println("The date in the stored file is "+localDateTimeFile);
+        System.out.println("The date in the stored  file  "+compartor+" the date in the XML file ");
+        return compartor;
+    }
 
-        return compartor ;
+
+    public void fileDeleter(){
+        File file = new File("C:\\Users\\Abdessamad\\Desktop\\justARatherDocument.txt");
+
+        if(file.delete())
+        {
+            System.out.println("File deleted successfully");
+        }
+        else
+        {
+            System.out.println("Failed to delete the file");
+        }
     }
 }
