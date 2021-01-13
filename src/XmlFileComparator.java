@@ -15,8 +15,7 @@ import java.util.Date;
 public class XmlFileComparator {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException, InterruptedException {
         File file = new File("C:\\Users\\Abdessamad\\Desktop\\Tzh.txt");
-
-        if(file.delete())
+ 
     }
 
     private static void extracted() throws IOException, ParserConfigurationException, SAXException, ParseException, InterruptedException {
