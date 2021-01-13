@@ -19,6 +19,8 @@ public class XmlFileComparator {
         if(file.delete())
         {
             System.out.println("File deleted successfully");
+             System.out.println("File deleted successfully");
+             System.out.println("File deleted successfully");
         }
         else
         {
