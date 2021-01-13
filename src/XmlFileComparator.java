@@ -17,6 +17,16 @@ public class XmlFileComparator {
         File file = new File("C:\\Users\\Abdessamad\\Desktop\\Tr.txt");
 
         if(file.delete())
+        {
+            System.out.println("File deleted successfully");
+             System.out.println("File deleted successfully");
+             System.out.println("File deleted successfully");
+        }
+        else
+        {
+            System.out.println("Failed to delete the file");
+        }
+
     }
 
     private static void extracted() throws IOException, ParserConfigurationException, SAXException, ParseException, InterruptedException {
