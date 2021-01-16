@@ -14,16 +14,19 @@ import java.util.Date;
 
 public class XmlFileComparator {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException, InterruptedException {
-        File file = new File("C:\\Users\\Abdessamad\\Desktop\\justARatherDocument.txt");
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        //Build Document
+        Document document = builder.parse(new File("C:\\Users\\bouhl\\OneDrive\\Bureau\\employees.xml.OK"));
 
-        if(file.delete())
-        {
-            System.out.println("File deleted successfully");
-        }
-        else
-        {
-            System.out.println("Failed to delete the file");
-        }
+        //Normalize the XML Structure; It's just too important !!
+        document.getDocumentElement().normalize();
+
+        //Here comes the root node
+        Element root = document.getDocumentElement();
+        System.out.println(root.getNodeName());
+        System.out.println("This is the date of birth "+root.getAttribute("DateTransfert"));
+
 
     }
 
@@ -76,7 +79,7 @@ public class XmlFileComparator {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         //Build Document
-        Document document = builder.parse(new File("C:\\Users\\Abdessamad\\Desktop\\employees.xml"));
+        Document document = builder.parse(new File("C:\\Users\\Abdessamad\\Desktop\\employees.xml.OK"));
 
         //Normalize the XML Structure; It's just too important !!
         document.getDocumentElement().normalize();
