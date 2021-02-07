@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d54ccb7-2f43-4f13-9fb4-efe56a0a9507" name="Default Changelist" comment="">
+    <list default="true" id="6d54ccb7-2f43-4f13-9fb4-efe56a0a9507" name="Default Changelist" comment="Zipper and file merger">
+      <change afterPath="$PROJECT_DIR$/src/MarshallerProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pckg/objects/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pckg/objects/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTraining/Decompressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTraining/Decompressor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decompressor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +29,9 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1mFfXUfYcU0yElwygOFb0lzFIuf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,19 +43,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowGit.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bouhl\OneDrive\Bureau\Road To\CodingGamesAndChallenges\JavaTraining" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decompressor">
+  <component name="RunManager" selected="Application.MarshallerProcessor">
     <configuration name="Decompressor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decompressor" />
+      <module name="JavaTraining" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarshallerProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MarshallerProcessor" />
       <module name="JavaTraining" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,27 +77,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Decompressor" />
+        <item itemvalue="Application.MarshallerProcessor" />
         <item itemvalue="Application.XmlFileComparator" />
+        <item itemvalue="Application.Decompressor" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="true" />
+  <component name="ShelveChangesManager" show_recycled="true">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\bouhl\AppData\Roaming\Subversion</configuration>
@@ -110,6 +122,11 @@
       <workItem from="1610544879737" duration="48000" />
       <workItem from="1610544946630" duration="1482000" />
       <workItem from="1610631965419" duration="4448000" />
+      <workItem from="1611694189876" duration="29000" />
+      <workItem from="1612726733745" duration="178000" />
+      <workItem from="1612726946704" duration="3115000" />
+      <workItem from="1612730116763" duration="51000" />
+      <workItem from="1612730191561" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="PEXR_1001 functions and implementations">
       <created>1609094335759</created>
@@ -139,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610830477506</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Zipper and file merger">
+      <created>1610843190979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610843190979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +174,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,11 +188,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="PEXR_1001 functions and implementations" />
     <MESSAGE value="Testing files" />
     <MESSAGE value="Adding Compressor and Uncompressor" />
     <MESSAGE value="merge resolution" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge resolution" />
+    <MESSAGE value="Zipper and file merger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zipper and file merger" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
